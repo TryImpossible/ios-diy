@@ -1,14 +1,10 @@
-# Xcode
+# OSX
 #
-# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
-# Mac OS X Finder and whatnot
 .DS_Store
 
-# Build generated
+# Xcode
+#
 build/
-DerivedData/
-
-# Various settings
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -17,22 +13,27 @@ DerivedData/
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
-xcuserdata/
-
-# Other
-*.moved-aside
-*.xcuserstate
+xcuserdata
 *.xccheckout
-
-# Obj-C/Swift specific
+*.moved-aside
+DerivedData
 *.hmap
 *.ipa
-*.dSYM.zip
-*.dSYM
+*.xcuserstate
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Bundle artifact
+*.jsbundle
 
 # CocoaPods
-/Pods/
-/.history/
-/.externalNativeBuild/
-
-
+/ios/Pods/
