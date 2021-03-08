@@ -1,0 +1,11 @@
+//
+//  Generator.xcconfig
+//  app
+//
+//  Created by admin on 2021/3/8.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) ENV='$(ENV)' SERVER_URL='$(SERVER_URL)'

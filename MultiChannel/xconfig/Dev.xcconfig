@@ -1,0 +1,16 @@
+//
+//  Debug.xcconfig
+//  app
+//
+//  Created by admin on 2021/3/8.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+// 环境变量
+ENV = @"development"
+// 服务器地址
+SERVER_URL = @"https:\/\/www.development.com\/"
+
+#include "Generator.xcconfig"
