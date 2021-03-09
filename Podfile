@@ -29,5 +29,6 @@ end
 
 
 target 'multichannel' do
+  pod 'DoraemonKit/Core', '~> 3.0.4', :configurations => ['Debug', 'DevDebug', 'ProdDebug'] #必选
   
 end
