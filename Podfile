@@ -30,5 +30,6 @@ end
 
 target 'multichannel' do
   pod 'DoraemonKit/Core', '~> 3.0.4', :configurations => ['Debug', 'DevDebug', 'ProdDebug'] #必选
+  pod 'Reveal-SDK', '~> 24', :configurations => ['Debug', 'DevDebug', 'ProdDebug'] # 配合 Reveal 界面调试神器使用
   
 end

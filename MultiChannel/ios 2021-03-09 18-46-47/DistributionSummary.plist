@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Panda.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>F8AE92A9EF08D9B4FC368630FBA150FDDC9B83DE</string>
+				<key>dateExpires</key>
+				<string>2021/9/25</string>
+				<key>type</key>
+				<string>Apple Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>F8AE92A9EF08D9B4FC368630FBA150FDDC9B83DE</string>
+						<key>dateExpires</key>
+						<string>2021/9/25</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>entitlements</key>
+					<dict>
+						<key>application-identifier</key>
+						<string>B3H6MSC2FH.chat.panda.media.ShareExtension</string>
+						<key>com.apple.developer.team-identifier</key>
+						<string>B3H6MSC2FH</string>
+						<key>com.apple.security.application-groups</key>
+						<array>
+							<string>group.chat.panda.media</string>
+							<string>group.chat.panda.media.ShareExtension</string>
+						</array>
+						<key>get-task-allow</key>
+						<false/>
+					</dict>
+					<key>name</key>
+					<string>ShareExtension.appex</string>
+					<key>profile</key>
+					<dict>
+						<key>UUID</key>
+						<string>8985adca-7065-4f66-ab48-d5661057a6c0</string>
+						<key>name</key>
+						<string>iOS Team Ad Hoc Provisioning Profile: chat.panda.media.ShareExtension</string>
+					</dict>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>B3H6MSC2FH</string>
+						<key>name</key>
+						<string>Guangzhou hongtan technology co., Ltd.</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>B3H6MSC2FH.chat.panda.media</string>
+				<key>aps-environment</key>
+				<string>production</string>
+				<key>com.apple.developer.associated-domains</key>
+				<array>
+					<string>applinks:api.youtalk.one</string>
+				</array>
+				<key>com.apple.developer.team-identifier</key>
+				<string>B3H6MSC2FH</string>
+				<key>com.apple.security.application-groups</key>
+				<array>
+					<string>group.chat.panda.media</string>
+					<string>group.chat.panda.media.ShareExtension</string>
+				</array>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>ios.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>ff7314c1-7f78-4d84-bf88-f9dfcf540825</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: chat.panda.media</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>B3H6MSC2FH</string>
+				<key>name</key>
+				<string>Guangzhou hongtan technology co., Ltd.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
